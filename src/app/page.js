@@ -1,15 +1,26 @@
+"use client";
+
+import { useState } from "react";
+
 export default function Home() {
+  const [name, setName] = useState("ankit");
+  const apple = (items) => {
+    setName(items);
+  };
+  const InnerComponent = () => {
+    return <h1>innercomponent</h1>;
+  };
   return (
-    <main className="flex min-h-screen flex-col items-center bg-green-300 justify-between p-24">
-      <h1>hello</h1>
-      <NewFunc name="raja" />
-      <NewFunc name="rani" />
-      <NewFunc name="kali" />
-      <NewFunc name="hatim" />
+    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <h1>hello {name}</h1>
+      <button
+        onClick={() => apple("rahi")}
+        className="bg-black text-white p-4 rounded-sm"
+      >
+        Click Me
+      </button>
+      {/* <InnerComponent /> */}
+      {InnerComponent()}
     </main>
   );
 }
-
-const NewFunc = (val) => {
-  return <h1>my name is {val.name}</h1>;
-};

@@ -1,3 +1,13 @@
+# video no. 4
+
+EVENTS , FUNCTIONS , STATE
+<br>
+events - if you want event on your page than you must write this code in page.js on top
+<br>
+functions - you can use
+<br>
+state - you can use same to same react js
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
