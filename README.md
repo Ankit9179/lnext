@@ -1,12 +1,30 @@
 # video no. 4
 
 EVENTS , FUNCTIONS , STATE
+
 <br>
 events - if you want event on your page than you must write this code in page.js on top
 <br>
 functions - you can use
 <br>
 state - you can use same to same react js
+
+<br>
+<br>
+<br>
+<br>
+
+#video no. 5
+
+FILE AND FOLDER STRUCTURE
+
+1. next.config.js - configration file for next.js
+
+2. jsconfig.jsom - configration file for javascript
+
+3. .eslintrc.json - configration file for ESLint
+
+4. package.json - it takes all information about your project likes dependencies and scripts
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
