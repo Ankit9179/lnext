@@ -65,8 +65,8 @@ NESTED ROUTING WIT LINK AND NAVIGATION
 
 file structure
 
-     src/about/about-student
-     src/about/about-teacher
+     src/about/about-student/page.js
+     src/about/about-teacher/page.js
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
