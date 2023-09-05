@@ -26,6 +26,12 @@ FILE AND FOLDER STRUCTURE
 
 4. package.json - it takes all information about your project likes dependencies and scripts
 
+# video no. 6
+
+COMPONENETS TYPE , SERVER AND CLIENT COMPONENTS
+
+you can read on next js doc
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
