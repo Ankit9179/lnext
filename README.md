@@ -68,6 +68,46 @@ file structure
      src/about/about-student/page.js
      src/about/about-teacher/page.js
 
+# video no. 10
+
+COMMON LAYOUT
+
+we can create common code and component in next js with the help of layout.js . common layout like navbar , footer ,sidebar...
+
+    file structure -
+
+    src/about/layout.js
+
+    import Link from "next/link";
+
+    <br>
+    <br>
+    <br>
+         import React from "react";
+
+         const layout = ({ children }) => {
+         return (
+           <div>
+             <div className="bg-blue-300">
+               <ul className="flex gap-9 ml-36 p-3">
+                 <li>
+                   <Link href="/about/aboutStudent">student</Link>
+                 </li>
+                 <li>
+                   <Link href="/about/aboutSchool">school</Link>
+                 </li>
+                 <li>
+                   <Link href="/about/aboutCollege">college</Link>
+                 </li>
+               </ul>
+             </div>
+             {children}
+           </div>
+         );
+       };
+
+       export default layout;
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
