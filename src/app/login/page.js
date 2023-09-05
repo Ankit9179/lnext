@@ -8,6 +8,11 @@ const page = () => {
       <br />
       <br />
       <Link href="/">go to home</Link>
+      <br />
+      <br />
+      <br />
+      <br />
+      <Link href="/login/loginstudent">go to login student paga with link</Link>
     </div>
   );
 };

@@ -59,6 +59,15 @@ import { useRouter } from "next/navigation";
         go to loin with navigation
     </button>
 
+# video no. 9
+
+NESTED ROUTING WIT LINK AND NAVIGATION
+
+file structure
+
+     src/about/about-student
+     src/about/about-teacher
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
