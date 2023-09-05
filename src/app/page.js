@@ -1,8 +1,11 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const navigat = useRouter();
   const [name, setName] = useState("ankit");
   const apple = (items) => {
     setName(items);
@@ -10,8 +13,13 @@ export default function Home() {
   const InnerComponent = () => {
     return <h1>innercomponent</h1>;
   };
+  //route fuc
+
+  const routeing = (rout) => {
+    navigat.push(rout);
+  };
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="">
       <h1>hello {name}</h1>
       <button
         onClick={() => apple("rahi")}
@@ -21,6 +29,27 @@ export default function Home() {
       </button>
       {/* <InnerComponent /> */}
       {InnerComponent()}
+      <br />
+      <br />
+      <br />
+      <Link className="text-blue-500" href="/login">
+        go to login
+      </Link>
+      <br />
+      <br />
+      <Link className="text-blue-500" href="/about">
+        go to about
+      </Link>
+      <br />
+      <br />
+      <br />
+      <br />
+      <button
+        onClick={() => routeing("/login")}
+        className="bg-black text-white p-5 rounded-lg"
+      >
+        go to loin with navigation
+      </button>
     </main>
   );
 }

@@ -38,6 +38,27 @@ BASIC ROUTING ,CREATE NEW PAGES
 
 here is no need any third party libraries for routing like in react js , react-router-dom
 
+# video no. 8
+
+LINKING AND NAVIGATION
+
+1. with the helep of link you can go from one page to another page u need to inport Link from next/link
+
+import Link from "next/link";
+
+   <Link href="/">go to home</Link>
+
+2.
+
+import { useRouter } from "next/navigation";
+
+    <button
+        onClick={() => navigat.push("/login")}
+        className="bg-black text-white p-5 rounded-lg"
+      >
+        go to loin with navigation
+    </button>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
