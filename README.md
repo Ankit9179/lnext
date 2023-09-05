@@ -32,6 +32,12 @@ COMPONENETS TYPE , SERVER AND CLIENT COMPONENTS
 
 you can read on next js doc
 
+# video no. 7
+
+BASIC ROUTING ,CREATE NEW PAGES
+
+here is no need any third party libraries for routing like in react js , react-router-dom
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
