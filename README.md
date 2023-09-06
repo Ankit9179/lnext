@@ -108,6 +108,35 @@ we can create common code and component in next js with the help of layout.js . 
 
        export default layout;
 
+# video no. 11
+
+CONDITIONAL LAYOUT
+
+check my conditional-layout branch
+conditional layout with pathname
+
+    import { usePathname } from "next/navigation";
+
+    <div className="bg-blue-300">
+        {path != "/about/aboutCollege" ? (
+          <ul className="flex gap-9 ml-36 p-3">
+            <li>
+              <Link href="/about/aboutStudent">student</Link>
+            </li>
+            <li>
+              <Link href="/about/aboutSchool">school</Link>
+            </li>
+            <li>
+              <Link href="/about/aboutCollege">college</Link>
+            </li>
+          </ul>
+        ) : (
+          <Link href="/about">
+            <h1 className="text-blue-600">go to about main</h1>
+          </Link>
+        )}
+      </div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
