@@ -192,8 +192,25 @@ with giving this type of name of folder [...lacture]
 
 404 PAGE ,GLOBAL PAGE ,SPECIFIC
 
-     GLOBAL 404 = src/not-found.js - your code
-     SPACIFIC 404 = src/about/[...not-found]/page.js - your code
+     GLOBAL 404 = src/app/not-found.js - your code
+     SPACIFIC 404 = src/app/about/[...not-found]/page.js - your code
+
+# video no.15
+
+MIDDLEWARE IN NEXT JS
+
+     src/middleware.js/
+
+     import { NextResponse } from "next/server";
+
+       export default function middleware(request) {
+         //   if (request.nextUrl.pathname != "/login") {
+         return NextResponse.redirect(new URL("/login", request.url));
+         //   }
+       }
+       export const config = {
+         matcher: "/about/:path*",
+       };
 
 <hr>
 <hr>
