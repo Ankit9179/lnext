@@ -188,6 +188,13 @@ ALL-SEGMENT IN ROUTE
 
 with giving this type of name of folder [...lacture]
 
+# video no. 14
+
+404 PAGE ,GLOBAL PAGE ,SPECIFIC
+
+     GLOBAL 404 = src/not-found.js - your code
+     SPACIFIC 404 = src/about/[...not-found]/page.js - your code
+
 <hr>
 <hr>
 
