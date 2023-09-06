@@ -137,6 +137,51 @@ conditional layout with pathname
         )}
       </div>
 
+# video no. 12
+
+DYNAMIC ROUTING
+
+we use dynamic routing when we have long list of student and you want to show each student details on your page
+
+       import Link from "next/link";
+
+       export default function StudentList() {
+         return (
+           <div className="ml-6">
+             <h1 className="m-4">student list</h1>
+             <ul className="text-blue-700">
+               <li>
+                 <Link href="/studentlist/ankit">ankit</Link>
+               </li>
+               <li>
+                 <Link href="/studentlist/iron">iron</Link>
+               </li>
+               <li>
+                 <Link href="/studentlist/jon">jon</Link>
+               </li>
+               <li>
+                 <Link href="/studentlist/nick">nick</Link>
+               </li>
+             </ul>
+           </div>
+         );
+       }
+
+
+       "use client";
+
+     import React from "react";
+
+     export default function studet({ params }) {
+       console.log(params);
+       return (
+         <div>
+           <h1>student details</h1>
+           <h1>name:{params.student}</h1>
+         </div>
+       );
+     }
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
