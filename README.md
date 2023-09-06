@@ -182,6 +182,15 @@ we use dynamic routing when we have long list of student and you want to show ea
        );
      }
 
+# video no. 13
+
+ALL-SEGMENT IN ROUTE
+
+with giving this type of name of folder [...lacture]
+
+<hr>
+<hr>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
