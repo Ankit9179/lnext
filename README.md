@@ -212,6 +212,20 @@ MIDDLEWARE IN NEXT JS
          matcher: "/about/:path*",
        };
 
+# video no. 16
+
+RENDERING
+
+1. when your all code convert into html page on your page called rendering
+   <br>
+2. pre-rending - cenerate html in advance on the server side
+   <br>
+3. static generation - use run build
+   <br>
+4. server-side rendring - dynamic
+   <br>
+5. rendering environments -client side rendering and server side rendering
+
 <hr>
 <hr>
 
