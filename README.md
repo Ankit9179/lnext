@@ -226,6 +226,16 @@ RENDERING
    <br>
 5. rendering environments -client side rendering and server side rendering
 
+<br>
+
+# video no. 17
+
+CLIENT SIDE AND PRE-RENDERING
+
+client side rendering like your code convert into html page on browser and rew-rendering like server side rendering on your server
+
+some questions in my phone about that
+
 <hr>
 <hr>
 
