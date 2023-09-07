@@ -42,6 +42,9 @@ export default function Home() {
       </Link>
       <br />
       <br />
+      <Link href="/productlist" className="text-blue-500">
+        go to products page
+      </Link>
       <br />
       <br />
       <button
