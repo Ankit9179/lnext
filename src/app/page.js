@@ -47,6 +47,11 @@ export default function Home() {
       </Link>
       <br />
       <br />
+      <Link href="/productlistserver" className="text-blue-500">
+        go to products list server page
+      </Link>
+      <br />
+      <br />
       <button
         onClick={() => routeing("/login")}
         className="bg-black text-white p-5 rounded-lg"
