@@ -1,3 +1,5 @@
+import CheckPrice from "./checkprice/page";
+
 //we could wright this function in other components
 const findData = async () => {
     const res = await fetch("https://dummyjson.com/products");
@@ -15,6 +17,7 @@ export default async function prodeuctlistserver() {
                     <div className="text-center">
                         <h1>{item.title}</h1>
                         <img src={item.thumbnail} className="mx-auto" alt="img" />
+                        <CheckPrice price={item.price} />
                     </div>
                 );
             })}

@@ -300,6 +300,61 @@ FETCH API DATA IN SERVER COMPONENT
           );
       }
 
+# video no. 20
+
+CLIENT COMPONENTS INSIDE SERVER COMPONENTS
+
+         src/app/productlistserver/page.js
+
+         import CheckPrice from "./checkprice/page";
+
+            //we could wright this function in other components
+            const findData = async () => {
+                const res = await fetch("https://dummyjson.com/products");
+                const data = await res.json();
+                return data.products;
+            };
+            export default async function prodeuctlistserver() {
+                const fdata = await findData();
+                console.log(fdata);
+                return (
+                    <div>
+                        <h1 className="text-center font-bold">product list from server</h1>
+                        {fdata.map((item) => {
+                            return (
+                                <div className="text-center">
+                                    <h1>{item.title}</h1>
+                                    <img src={item.thumbnail} className="mx-auto" alt="img" />
+                                    <CheckPrice price={item.price} />
+                                </div>
+                            );
+                        })}
+                    </div>
+                );
+            }
+
+
+
+            src/app/productlistserver/checkprice/page.js
+
+
+            "use client";
+          export default function CheckPrice(props) {
+            console.log(props.price);
+            return (
+              <div>
+                <button
+                  onClick={() => alert(`${props.price} $`)}
+                  className="m-8 bg-black text-white p-4 rounded-lg border-yellow-300"
+                >
+                  Check Price
+                </button>
+              </div>
+            );
+          }
+
+
+
 <hr>
 <hr>
 
