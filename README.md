@@ -426,6 +426,12 @@ this code most important when u want to use link in your image
 <hr>
 <hr>
 
+# video no. 25
+
+FONT OPTIMIZATION
+
+you can read on video no 25 from code step by step
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
