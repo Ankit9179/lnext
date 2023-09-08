@@ -353,7 +353,13 @@ CLIENT COMPONENTS INSIDE SERVER COMPONENTS
             );
           }
 
+# video no. 21
 
+CSS WITH NEXT JS
+
+global css and inline css
+
+src/app/globals.css
 
 <hr>
 <hr>
