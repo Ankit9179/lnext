@@ -374,6 +374,15 @@ import mycss from 'style.module.css'
 
 and use like this {mycss}
 
+<br>
+<br>
+
+# video no. 23
+
+CONDITIONAL STYLE AND CSS
+
+you can read on video no 23 from code step by step
+
 <hr>
 <hr>
 
