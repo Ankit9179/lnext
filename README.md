@@ -360,6 +360,19 @@ CSS WITH NEXT JS
 global css and inline css
 
 src/app/globals.css
+<br>
+<br>
+<br>
+
+# video no. 22
+
+CSS MODULES
+
+create css file in src/app/style.module.css
+
+import mycss from 'style.module.css'
+
+and use like this {mycss}
 
 <hr>
 <hr>
