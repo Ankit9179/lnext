@@ -498,6 +498,15 @@ SCRIPT COMPONENTS IN NEXT JS
         );
       }
 
+# video no. 28
+
+LOADER WITH API DATA
+
+it's easy to create and understand
+
+     src/app/userslist/page.js
+     src/app/userslist/loading.js
+
 <hr>
 <hr>
 <hr>
