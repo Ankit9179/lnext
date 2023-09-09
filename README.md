@@ -507,6 +507,12 @@ it's easy to create and understand
      src/app/userslist/page.js
      src/app/userslist/loading.js
 
+# video no. 29
+
+STATIC ASSETS
+
+you can see in public and layout.js
+
 <hr>
 <hr>
 <hr>

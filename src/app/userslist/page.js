@@ -15,6 +15,7 @@ export default async function page() {
         return (
           <div>
             <h1>name :{item.firstName}</h1>
+            <img src="/assets.jpeg" alt="img" />
           </div>
         );
       })}
