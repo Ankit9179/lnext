@@ -456,6 +456,48 @@ GENERATEMETADATA AND DYNAMICMETA DATA
           };
         }
 
+# video no. 27
+
+SCRIPT COMPONENTS IN NEXT JS
+
+     public/location.js
+
+    console.log("location file loaded form public file");
+    function getLocation() {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+      } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+      }
+    }
+
+    function showPosition(position) {
+      console.log(position);
+    }
+
+    //coll
+    getLocation();
+
+
+     src/app/userlocation/page.js
+
+     "use client";
+      import Script from "next/script";
+
+      export default function page() {
+        return (
+          <div>
+            <Script
+              src="/location.js"
+              onLoad={() => {
+                console.log("file loaded in page .js");
+              }}
+            />
+            <h1> get user location</h1>
+          </div>
+        );
+      }
+
 <hr>
 <hr>
 <hr>
