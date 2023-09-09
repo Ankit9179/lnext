@@ -513,6 +513,12 @@ STATIC ASSETS
 
 you can see in public and layout.js
 
+# video no. 30
+
+PRODUCTION BUILD IN NEXT JS
+
+u cn watch vdo no 30
+
 <hr>
 <hr>
 <hr>
