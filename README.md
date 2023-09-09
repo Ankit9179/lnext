@@ -423,14 +423,45 @@ this code most important when u want to use link in your image
 
             module.exports = nextConfig;
 
-<hr>
-<hr>
-
 # video no. 25
 
 FONT OPTIMIZATION
 
 you can read on video no 25 from code step by step
+
+# video no. 26
+
+GENERATEMETADATA AND DYNAMICMETA DATA
+
+1.metadata - describes and gives information about your website
+
+2.  dynamic metadata - when u create metadata for each every components one by one
+
+          src/app/myhome/page.js
+
+          export default function Myhome() {
+          return (
+            <div>
+              <h1>my home page</h1>
+            </div>
+          );
+        }
+
+        // dynamic meta data with the help of
+
+        export function generateMetadata() {
+          return {
+            title: "my home title",
+            discription: "this is my home discription",
+          };
+        }
+
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
