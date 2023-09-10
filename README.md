@@ -519,6 +519,12 @@ PRODUCTION BUILD IN NEXT JS
 
 u cn watch vdo no 30
 
+# video no. 31
+
+EXPORT STATIC HTML
+
+u cn watch vdo no 31
+
 <hr>
 <hr>
 <hr>
