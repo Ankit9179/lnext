@@ -525,6 +525,18 @@ EXPORT STATIC HTML
 
 u cn watch vdo no 31
 
+# video no. 34
+
+ENVIROMENT VARIABLES
+
+      console.log(process.env)
+
+add new varioable in .env
+
+    .env.local
+
+SERVER_PASS="admin@123"
+
 <hr>
 <hr>
 <hr>

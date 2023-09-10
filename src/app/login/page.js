@@ -2,6 +2,8 @@ import Link from "next/link";
 import React from "react";
 
 const page = () => {
+  console.log(process.env.NODE_ENV);
+  console.log(process.env.SERVER_PASS);
   return (
     <div>
       <h1>login page</h1>
